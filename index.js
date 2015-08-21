@@ -22,7 +22,7 @@ proto.setProperty = function(key, value) {
 };
 
 proto.load = function(str) {
-  var properties = new Properties();
+  var properties = this;
   str.trim()
     .replace(/^\{/, '')
     .replace(/\}$/, '')
