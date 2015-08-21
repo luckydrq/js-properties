@@ -1,0 +1,19 @@
+{
+  "name": "nproperties",
+  "version": "0.0.1",
+  "description": "Node style `Properties` class inspired of java `Properties` class",
+  "keywords": [
+    "Properties",
+    "java"
+  ],
+  "maintainers": [
+    {
+      "name": "luckdrq",
+      "email": "drqzju@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:luckydrq/nproperties.git"
+  }
+}

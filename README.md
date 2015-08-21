@@ -1,2 +1,2 @@
-# nProperties
-node implementation of `Properties` class of java
+# nproperties
+Node style `Properties` class inspired of java `Properties` class
