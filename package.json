@@ -1,6 +1,6 @@
 {
   "name": "nproperties",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Node style `Properties` class inspired of java `Properties` class",
   "keywords": [
     "Properties",

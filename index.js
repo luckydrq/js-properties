@@ -12,6 +12,15 @@ function Properties(defaults) {
 
 var proto = Properties.prototype;
 
+proto.get = function(key) {
+  return this.properties[key];
+};
+
+proto.set = function(key, value) {
+  this.properties[key] = value;
+  return this;
+};
+
 proto.getProperty = function(key, defaultValue) {
   return this.properties[key] || defaultValue;
 };
