@@ -1,7 +1,9 @@
 .*
 node_modules
 logs
+coverage
 !.gitignore
 !.npmignore
 !.eslint
 !.jshint
+!.travis.yml

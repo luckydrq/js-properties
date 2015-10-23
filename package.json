@@ -1,9 +1,9 @@
 {
-  "name": "nproperties",
-  "version": "0.0.3",
-  "description": "Node style `Properties` class inspired of java `Properties` class",
+  "name": "js-properties",
+  "version": "0.0.1",
+  "description": "Javascript version of `java.util.Properties`",
   "keywords": [
-    "Properties",
+    "properties",
     "java"
   ],
   "maintainers": [
@@ -12,8 +12,18 @@
       "email": "drqzju@gmail.com"
     }
   ],
+  "scripts": {
+    "test": "istanbul cover _mocha test/index.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git@github.com:luckydrq/nproperties.git"
+    "url": "git@github.com:luckydrq/js-properties.git"
+  },
+  "dependencies": {
+    "object-to-map": "~1.0.0"
+  },
+  "devDependencies": {
+    "istanbul": "~0.4.0",
+    "mocha": "~2.3.3"
   }
 }
