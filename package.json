@@ -19,6 +19,10 @@
     "type": "git",
     "url": "git@github.com:luckydrq/js-properties.git"
   },
+  "engines": {
+    "node": "4.x",
+    "iojs": "*"
+  },
   "dependencies": {
     "object-to-map": "~1.0.0"
   },
